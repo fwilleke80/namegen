@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Namegen",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/namegen.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Namegen (20x female)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/namegen.py",
+            "console": "integratedTerminal",
+            "args": ["--count=20", "--gender=female"]
+        },
+        {
+            "name": "Namegen (20x male)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/namegen.py",
+            "console": "integratedTerminal",
+            "args": ["--count=20", "--gender=male"]
+        },
+        {
+            "name": "Namegen (Statistics)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/namegen.py",
+            "console": "integratedTerminal",
+            "args": ["--stats"]
+        }
+    ]
+}
